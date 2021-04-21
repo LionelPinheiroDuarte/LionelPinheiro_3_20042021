@@ -28,6 +28,18 @@ body {
   font-family: "Roboto";
 }
 
+header a {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+}
+header .logo {
+  padding: 3%;
+  text-align: center;
+}
+header .logo img {
+  width: 40%;
+}
 header form {
   text-align: center;
   border-top: 3px solid gray;

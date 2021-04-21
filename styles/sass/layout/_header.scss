@@ -1,4 +1,16 @@
 header {
+  a {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+  }
+  .logo {
+    padding: 3%;
+    text-align: center;
+    img {
+      width: 40%;
+    }
+  }
   form {
     text-align: center;
     border-top: 3px solid gray;
