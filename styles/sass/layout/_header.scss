@@ -1,0 +1,21 @@
+header {
+  form {
+    text-align: center;
+    border-top: 3px solid gray;
+    background-color: #eaeaea;
+    .input {
+      display: flex;
+      justify-content: center;
+      padding: 3%;
+      .fas {
+        margin-right: 15px;
+      }
+      input {
+        width: 100px;
+        border: none;
+        outline: none;
+        background-color: #eaeaea;
+      }
+    }
+  }
+}

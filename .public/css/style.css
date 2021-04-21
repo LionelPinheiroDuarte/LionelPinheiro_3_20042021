@@ -22,6 +22,32 @@
   background: linear-gradient(356deg, #9356dc 0%, #ff79da 100%);
 }
 
+/*--- Base ---*/
+body {
+  margin: auto;
+  font-family: "Roboto";
+}
+
+header form {
+  text-align: center;
+  border-top: 3px solid gray;
+  background-color: #eaeaea;
+}
+header form .input {
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+}
+header form .input .fas {
+  margin-right: 15px;
+}
+header form .input input {
+  width: 100px;
+  border: none;
+  outline: none;
+  background-color: #eaeaea;
+}
+
 footer {
   padding: 2% 5%;
   background-color: #353535;
