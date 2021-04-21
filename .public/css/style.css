@@ -60,6 +60,19 @@ header form .input input {
   background-color: #eaeaea;
 }
 
+/*--- Styles index.html ---*/
+.information {
+  padding: 4% 17% 10% 17%;
+  text-align: center;
+  background-color: #f6f6f6;
+}
+.information h2 {
+  margin-bottom: 0px;
+}
+.information p {
+  color: gray;
+}
+
 footer {
   padding: 2% 5%;
   background-color: #353535;
