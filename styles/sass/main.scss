@@ -1,14 +1,2 @@
-@import "./utils/variables";
+@import "./utils/_variables";
 @import "./utils/fonts";
-
-body {
-  background-color: $secondary-color;
-}
-
-h1 {
-  font-family: "Shrikhand";
-}
-
-p {
-  font-family: "Roboto";
-}

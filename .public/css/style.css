@@ -8,16 +8,5 @@
   font-family: "Shrikhand";
   src: url("./../../../styles/sass/vendors/fonts/Shrikhand/Shrikhand-Regular.ttf") format("truetype");
 }
-body {
-  background-color: #ff79da;
-}
-
-h1 {
-  font-family: "Shrikhand";
-}
-
-p {
-  font-family: "Roboto";
-}
 
 /*# sourceMappingURL=style.css.map */
