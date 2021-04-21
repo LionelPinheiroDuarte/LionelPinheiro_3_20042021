@@ -1,0 +1,18 @@
+footer {
+  padding: 2% 5%;
+  background-color: $footer-bkg;
+  color: #fff;
+  p {
+    font-family: "Shrikhand";
+  }
+  ul {
+    padding-left: 0px;
+    li {
+      margin-bottom: 8px;
+      list-style-type: none;
+      .fas {
+        margin-right: 5px;
+      }
+    }
+  }
+}

@@ -22,4 +22,23 @@
   background: linear-gradient(356deg, #9356dc 0%, #ff79da 100%);
 }
 
+footer {
+  padding: 2% 5%;
+  background-color: #353535;
+  color: #fff;
+}
+footer p {
+  font-family: "Shrikhand";
+}
+footer ul {
+  padding-left: 0px;
+}
+footer ul li {
+  margin-bottom: 8px;
+  list-style-type: none;
+}
+footer ul li .fas {
+  margin-right: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */
