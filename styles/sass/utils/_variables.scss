@@ -7,7 +7,12 @@ $tertiary-color: #99e2d0;
 /*--- GRADIENT ---*/
 
 $primary-gradient: linear-gradient(
-  0deg,
+  356deg,
   rgba(147, 86, 220, 1) 0%,
   rgba(255, 121, 218, 1) 100%
 );
+
+/*--- FONTS ---*/
+
+$primary-font: "Roboto";
+$secondary-font: "Shrikhand";

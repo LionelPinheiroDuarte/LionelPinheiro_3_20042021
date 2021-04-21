@@ -1,6 +1,7 @@
 /*--- COLORS ---*/
 /*--- GRADIENT ---*/
 /*--- FONTS ---*/
+/*--- FONTS ---*/
 @font-face {
   font-family: "Roboto";
   src: url("./../../../styles/sass/vendors/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
@@ -13,11 +14,12 @@
 /*-- Reset Button Styles*/
 /*-- Actions buttons --*/
 .action_button {
+  font-family: "Roboto";
   padding: 10px 15px;
   color: #fff;
   border: none;
   border-radius: 40px;
-  background: linear-gradient(0deg, #9356dc 0%, #ff79da 100%);
+  background: linear-gradient(356deg, #9356dc 0%, #ff79da 100%);
 }
 
 /*# sourceMappingURL=style.css.map */
