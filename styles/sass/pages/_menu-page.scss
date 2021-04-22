@@ -1,0 +1,55 @@
+.test {
+  background-image: url("../../../assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 25vh;
+}
+
+#menu {
+  border-radius: 35px 35px 0px 0px;
+  background-color: #f6f6f6;
+  padding: 5% 5% 10% 5%;
+  position: relative;
+  top: -60px;
+  .menu__header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    h1 {
+      font-family: "Shrikhand";
+    }
+    .far {
+      font-size: 1.2rem;
+      color: rgb(128 128 128);
+    }
+  }
+  .menu__list {
+    h2 {
+      text-transform: uppercase;
+      color: gray;
+      font-weight: 100;
+      font-size: 1rem;
+      border-bottom: 3px solid $tertiary-color;
+      width: 40px;
+    }
+    .menu__card {
+      display: flex;
+      justify-content: space-between;
+      background-color: rgb(255 255 255);
+      border-radius: 20px;
+      box-shadow: $box-shadow;
+      margin-bottom: 5%;
+      padding: 0% 5%;
+      .menu__card__content {
+        line-height: 15px;
+        p {
+          color: gray;
+        }
+      }
+      .menu__card__price {
+        align-self: flex-end;
+        font-weight: 800;
+      }
+    }
+  }
+}

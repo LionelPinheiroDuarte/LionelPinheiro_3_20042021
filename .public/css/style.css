@@ -190,6 +190,60 @@ header form .input input {
   font-size: 1.4em;
 }
 
+.test {
+  background-image: url("../../../assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 25vh;
+}
+
+#menu {
+  border-radius: 35px 35px 0px 0px;
+  background-color: #f6f6f6;
+  padding: 5% 5% 10% 5%;
+  position: relative;
+  top: -60px;
+}
+#menu .menu__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+#menu .menu__header h1 {
+  font-family: "Shrikhand";
+}
+#menu .menu__header .far {
+  font-size: 1.2rem;
+  color: gray;
+}
+#menu .menu__list h2 {
+  text-transform: uppercase;
+  color: gray;
+  font-weight: 100;
+  font-size: 1rem;
+  border-bottom: 3px solid #99e2d0;
+  width: 40px;
+}
+#menu .menu__list .menu__card {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 7px 6px 9px 1px rgba(128, 128, 128, 0.17);
+  margin-bottom: 5%;
+  padding: 0% 5%;
+}
+#menu .menu__list .menu__card .menu__card__content {
+  line-height: 15px;
+}
+#menu .menu__list .menu__card .menu__card__content p {
+  color: gray;
+}
+#menu .menu__list .menu__card .menu__card__price {
+  align-self: flex-end;
+  font-weight: 800;
+}
+
 footer {
   padding: 2% 5%;
   background-color: #353535;
