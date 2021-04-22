@@ -1,5 +1,6 @@
 /*--- COLORS ---*/
 /*--- GRADIENT ---*/
+/*--- BOX SHADOW ---*/
 /*--- FONTS ---*/
 /*--- FONTS ---*/
 @font-face {
@@ -95,6 +96,7 @@ header form .input input {
   align-items: baseline;
   font-weight: 600;
   background-color: #f6f6f6;
+  box-shadow: 7px 6px 9px 1px rgba(128, 128, 128, 0.17);
   padding: 5%;
   margin-bottom: 3%;
   border-radius: 20px;
@@ -158,6 +160,7 @@ header form .input input {
   flex-direction: column;
   border-radius: 20px;
   background-color: #fff;
+  box-shadow: 7px 6px 9px 1px rgba(128, 128, 128, 0.17);
   height: 25vh;
 }
 .restaurant #restaurants .restaurant__card .restaurant__card__label {

@@ -29,6 +29,7 @@
     align-items: baseline;
     font-weight: 600;
     background-color: #f6f6f6;
+    box-shadow: $box-shadow;
     padding: 5%;
     margin-bottom: 3%;
     border-radius: 20px;
@@ -91,6 +92,7 @@
       flex-direction: column;
       border-radius: 20px;
       background-color: #fff;
+      box-shadow: $box-shadow;
       height: 25vh;
       .restaurant__card__label {
         position: relative;
