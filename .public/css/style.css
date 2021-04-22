@@ -80,7 +80,7 @@ header form .input input {
 
 /*--- FONCTIONALITY SECTION ---*/
 .functionality {
-  padding: 3% 5%;
+  padding: 5% 5% 10% 5%;
 }
 
 /*--- FONCTIONALITY BUTTONS ---*/
@@ -119,7 +119,7 @@ header form .input input {
 
 /*--- RESTAURANTS SECTION ---*/
 .restaurant {
-  padding: 3% 5%;
+  padding: 5% 5% 10% 5%;
 }
 
 /*--- RESTAURANT CARDS ---*/
