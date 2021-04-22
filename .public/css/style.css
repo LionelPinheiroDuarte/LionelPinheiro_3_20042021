@@ -14,13 +14,17 @@
 /*--- Buttons ---*/
 /*-- Reset Button Styles*/
 /*-- Actions buttons --*/
-.action_button {
+.action__button {
   font-family: "Roboto";
   padding: 10px 15px;
   color: #fff;
   border: none;
   border-radius: 40px;
   background: linear-gradient(356deg, #9356dc 0%, #ff79da 100%);
+}
+
+.--bigger-button {
+  padding: 15px 40px;
 }
 
 /*--- Base ---*/
@@ -242,6 +246,11 @@ header form .input input {
 #menu .menu__list .menu__card .menu__card__price {
   align-self: flex-end;
   font-weight: 800;
+}
+#menu .menu__button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
 }
 
 footer {

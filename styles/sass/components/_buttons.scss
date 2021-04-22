@@ -7,11 +7,15 @@
 // }
 
 /*-- Actions buttons --*/
-.action_button {
+.action__button {
   font-family: $primary-font;
   padding: 10px 15px;
   color: #fff;
   border: none;
   border-radius: 40px;
   background: $primary-gradient;
+}
+
+.--bigger-button {
+  padding: 15px 40px;
 }
