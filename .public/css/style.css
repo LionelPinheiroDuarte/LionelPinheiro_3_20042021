@@ -28,6 +28,10 @@ body {
   font-family: "Roboto";
 }
 
+button {
+  border: none;
+}
+
 header a {
   position: absolute;
   top: 18px;
@@ -61,6 +65,7 @@ header form .input input {
 }
 
 /*--- Styles index.html ---*/
+/*--- INFORMATION SECTION ---*/
 .information {
   padding: 4% 17% 10% 17%;
   text-align: center;
@@ -71,6 +76,45 @@ header form .input input {
 }
 .information p {
   color: gray;
+}
+
+/*--- FONCTIONALITY SECTION ---*/
+.functionality {
+  padding: 3% 5%;
+}
+
+/*--- FONCTIONALITY BUTTONS ---*/
+.functionality__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.functionality__buttons button {
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+  font-weight: 600;
+  background-color: #f6f6f6;
+  padding: 5%;
+  margin-bottom: 3%;
+  border-radius: 20px;
+  width: 85vw;
+}
+.functionality__buttons button .bkg {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #9356dc;
+  position: relative;
+  right: 35px;
+}
+.functionality__buttons button .bkg span {
+  color: #fff;
+  line-height: 30px;
+}
+.functionality__buttons button .fas {
+  color: gray;
+  margin-right: 30px;
 }
 
 footer {
