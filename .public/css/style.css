@@ -38,6 +38,10 @@ header a {
   top: 18px;
   left: 18px;
 }
+header a .fas {
+  font-size: 1.2rem;
+  color: #000;
+}
 header .logo {
   padding: 3%;
   text-align: center;
