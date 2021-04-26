@@ -194,10 +194,11 @@ header form .input input {
   font-size: 1.4em;
 }
 
-.test {
+.image {
   background-image: url("../../../assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
   background-position: center;
   background-size: cover;
+  z-index: 1;
   height: 25vh;
 }
 
@@ -206,7 +207,7 @@ header form .input input {
   background-color: #f6f6f6;
   padding: 5% 5% 10% 5%;
   position: relative;
-  top: -60px;
+  z-index: 2;
 }
 #menu .menu__header {
   display: flex;
@@ -219,6 +220,9 @@ header form .input input {
 #menu .menu__header .far {
   font-size: 1.2rem;
   color: gray;
+}
+#menu .menu__list {
+  margin-bottom: 5vh;
 }
 #menu .menu__list h2 {
   text-transform: uppercase;
