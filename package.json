@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./styles/sass/main.scss:docs/assets/css/style.css node_modules/@fortawesome/fontawesome-free/css/all.css:docs/icons/icons.css"
+    "sass": "sass --watch ./styles/sass/main.scss:docs/assets/css/style.css node_modules/@fortawesome/fontawesome-free/css/all.css:docs/assets/css/icons/icons.css"
   },
   "author": "",
   "license": "ISC",
