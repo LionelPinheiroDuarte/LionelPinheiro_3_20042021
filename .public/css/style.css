@@ -1,0 +1,279 @@
+/*--- COLORS ---*/
+/*--- GRADIENT ---*/
+/*--- BOX SHADOW ---*/
+/*--- FONTS ---*/
+/*--- FONTS ---*/
+@font-face {
+  font-family: "Roboto";
+  src: url("./../../../styles/sass/vendors/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Shrikhand";
+  src: url("./../../../styles/sass/vendors/fonts/Shrikhand/Shrikhand-Regular.ttf") format("truetype");
+}
+/*--- Buttons ---*/
+/*-- Reset Button Styles*/
+/*-- Actions buttons --*/
+.action__button {
+  font-family: "Roboto";
+  padding: 10px 15px;
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  background: linear-gradient(356deg, #9356dc 0%, #ff79da 100%);
+}
+
+.--bigger-button {
+  padding: 15px 40px;
+}
+
+/*--- Base ---*/
+body {
+  margin: auto;
+  font-family: "Roboto";
+}
+
+button {
+  border: none;
+}
+
+header a {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+}
+header a .fas {
+  font-size: 1.2rem;
+  color: #000;
+}
+header .logo {
+  padding: 3%;
+  text-align: center;
+}
+header .logo img {
+  width: 40%;
+}
+header form {
+  text-align: center;
+  border-top: 3px solid gray;
+  background-color: #eaeaea;
+}
+header form .input {
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+}
+header form .input .fas {
+  margin-right: 15px;
+}
+header form .input input {
+  width: 100px;
+  border: none;
+  outline: none;
+  background-color: #eaeaea;
+}
+
+/*--- Styles index.html ---*/
+/*--- INFORMATION SECTION ---*/
+.information {
+  padding: 4% 17% 10% 17%;
+  text-align: center;
+  background-color: #f6f6f6;
+}
+.information h2 {
+  margin-bottom: 0px;
+}
+.information p {
+  color: gray;
+}
+
+/*--- FONCTIONALITY SECTION ---*/
+.functionality {
+  padding: 5% 5% 10% 5%;
+}
+
+/*--- FONCTIONALITY BUTTONS ---*/
+.functionality__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.functionality__buttons button {
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+  font-weight: 600;
+  background-color: #f6f6f6;
+  box-shadow: 7px 6px 9px 1px rgba(128, 128, 128, 0.17);
+  padding: 5%;
+  margin-bottom: 6%;
+  border-radius: 20px;
+  width: 85vw;
+}
+.functionality__buttons button .bkg {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #9356dc;
+  position: relative;
+  right: 35px;
+}
+.functionality__buttons button .bkg span {
+  color: #fff;
+  line-height: 30px;
+}
+.functionality__buttons button .fas {
+  color: gray;
+  margin-right: 30px;
+}
+
+/*--- RESTAURANTS SECTION ---*/
+.restaurant {
+  padding: 5% 5% 10% 5%;
+}
+
+/*--- RESTAURANT CARDS ---*/
+.img {
+  flex-grow: 1;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.img1 {
+  background-image: url("../../../docs/assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+}
+
+.img2 {
+  background-image: url("../../../docs/assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+}
+
+.img3 {
+  background-image: url("../../../../docs/assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+}
+
+.img4 {
+  background-image: url("../../../docs/assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+}
+
+.restaurant {
+  background-color: #f6f6f6;
+}
+.restaurant #restaurants {
+  display: grid;
+  grid-row-gap: 30px;
+}
+.restaurant #restaurants .restaurant__card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 7px 6px 9px 1px rgba(128, 128, 128, 0.17);
+  height: 25vh;
+}
+.restaurant #restaurants .restaurant__card .restaurant__card__label {
+  position: relative;
+  top: 10%;
+  left: 70%;
+  padding: 1% 3%;
+  color: #008766;
+  background-color: #99e2d0;
+}
+.restaurant #restaurants .restaurant__card .restaurant__card__content {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 1% 4%;
+  line-height: 5px;
+}
+.restaurant #restaurants .restaurant__card .restaurant__card__content p {
+  color: gray;
+}
+.restaurant #restaurants .restaurant__card .restaurant__card__content .far {
+  color: gray;
+  font-size: 1.4em;
+}
+
+.image {
+  background-image: url("../../../assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  height: 25vh;
+}
+
+#menu {
+  border-radius: 35px 35px 0px 0px;
+  background-color: #f6f6f6;
+  padding: 5% 5% 10% 5%;
+  position: relative;
+  z-index: 2;
+}
+#menu .menu__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+#menu .menu__header h1 {
+  font-family: "Shrikhand";
+}
+#menu .menu__header .far {
+  font-size: 1.2rem;
+  color: gray;
+}
+#menu .menu__list {
+  margin-bottom: 5vh;
+}
+#menu .menu__list h2 {
+  text-transform: uppercase;
+  color: gray;
+  font-weight: 100;
+  font-size: 1rem;
+  border-bottom: 3px solid #99e2d0;
+  width: 40px;
+}
+#menu .menu__list .menu__card {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 7px 6px 9px 1px rgba(128, 128, 128, 0.17);
+  margin-bottom: 5%;
+  padding: 0% 5%;
+}
+#menu .menu__list .menu__card .menu__card__content {
+  line-height: 15px;
+}
+#menu .menu__list .menu__card .menu__card__content p {
+  color: gray;
+}
+#menu .menu__list .menu__card .menu__card__price {
+  align-self: flex-end;
+  font-weight: 800;
+}
+#menu .menu__button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+footer {
+  padding: 2% 5%;
+  background-color: #353535;
+  color: #fff;
+}
+footer p {
+  font-family: "Shrikhand";
+}
+footer ul {
+  padding-left: 0px;
+}
+footer ul li {
+  margin-bottom: 8px;
+  list-style-type: none;
+}
+footer ul li .fas {
+  margin-right: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
