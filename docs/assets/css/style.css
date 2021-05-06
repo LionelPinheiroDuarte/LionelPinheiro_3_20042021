@@ -3,17 +3,6 @@
 /*--- GRADIENT ---*/
 /*--- BOX SHADOW ---*/
 /*--- FONTS ---*/
-@import url("../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss");
-@import url("../../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss");
-@import url("../../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss");
-.fa,
-.fas,
-.far,
-.fal,
-.fab {
-  font-family: "Font Awesome 5 Free";
-}
-
 /*--- FONTS ---*/
 @font-face {
   font-family: "Roboto";
