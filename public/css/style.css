@@ -13,7 +13,6 @@
   src: url("./../../../styles/sass/vendors/fonts/Shrikhand/Shrikhand-Regular.ttf") format("truetype");
 }
 /*--- Buttons ---*/
-/*-- Reset Button Styles*/
 /*-- Actions buttons --*/
 .action__button {
   font-family: "Roboto";
@@ -28,14 +27,95 @@
   padding: 15px 40px;
 }
 
-/*--- Base ---*/
-body {
-  margin: auto;
-  font-family: "Roboto";
+/*--- RESTAURANT CARDS ---*/
+.img {
+  flex-grow: 1;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px 20px 0px 0px;
 }
 
-button {
+.img1 {
+  background-image: url("../../../public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+}
+
+.img2 {
+  background-image: url("../../../public/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+}
+
+.img3 {
+  background-image: url("../../../public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+}
+
+.img4 {
+  background-image: url("../../../public/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+}
+
+.restaurant__card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 7px 6px 9px 1px rgba(128, 128, 128, 0.17);
+  height: 25vh;
+}
+.restaurant__card .restaurant__card__label {
+  position: relative;
+  top: 10%;
+  left: 70%;
+  padding: 1% 3%;
+  color: #008766;
+  background-color: #99e2d0;
+}
+.restaurant__card .restaurant__card__content {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 1% 4%;
+  line-height: 5px;
+}
+.restaurant__card .restaurant__card__content p {
+  color: gray;
+}
+.restaurant__card .restaurant__card__content .far {
+  color: gray;
+  font-size: 1.4em;
+}
+
+/*--- FONCTIONALITY BUTTONS ---*/
+.functionality__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.functionality__buttons button {
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+  font-weight: 600;
+  background-color: #f6f6f6;
+  box-shadow: 7px 6px 9px 1px rgba(128, 128, 128, 0.17);
+  padding: 20px;
+  margin-bottom: 6%;
+  border-radius: 20px;
   border: none;
+  width: 85vw;
+}
+.functionality__buttons button .bkg {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #9356dc;
+  position: relative;
+  right: 35px;
+}
+.functionality__buttons button .bkg span {
+  color: #fff;
+  line-height: 30px;
+}
+.functionality__buttons button .fas {
+  color: gray;
+  margin-right: 30px;
 }
 
 header a {
@@ -93,106 +173,18 @@ header form .input input {
   padding: 5% 5% 10% 5%;
 }
 
-/*--- FONCTIONALITY BUTTONS ---*/
-.functionality__buttons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.functionality__buttons button {
-  display: flex;
-  justify-content: start;
-  align-items: baseline;
-  font-weight: 600;
-  background-color: #f6f6f6;
-  box-shadow: 7px 6px 9px 1px rgba(128, 128, 128, 0.17);
-  padding: 5%;
-  margin-bottom: 6%;
-  border-radius: 20px;
-  width: 85vw;
-}
-.functionality__buttons button .bkg {
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-  background-color: #9356dc;
-  position: relative;
-  right: 35px;
-}
-.functionality__buttons button .bkg span {
-  color: #fff;
-  line-height: 30px;
-}
-.functionality__buttons button .fas {
-  color: gray;
-  margin-right: 30px;
-}
-
 /*--- RESTAURANTS SECTION ---*/
 .restaurant {
   padding: 5% 5% 10% 5%;
 }
 
 /*--- RESTAURANT CARDS ---*/
-.img {
-  flex-grow: 1;
-  background-position: center;
-  background-size: cover;
-  border-radius: 20px 20px 0px 0px;
-}
-
-.img1 {
-  background-image: url("../../../public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
-}
-
-.img2 {
-  background-image: url("../../../public/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
-}
-
-.img3 {
-  background-image: url("../../../public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
-}
-
-.img4 {
-  background-image: url("../../../public/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
-}
-
 .restaurant {
   background-color: #f6f6f6;
 }
 .restaurant #restaurants {
   display: grid;
   grid-row-gap: 30px;
-}
-.restaurant #restaurants .restaurant__card {
-  display: flex;
-  flex-direction: column;
-  border-radius: 20px;
-  background-color: #fff;
-  box-shadow: 7px 6px 9px 1px rgba(128, 128, 128, 0.17);
-  height: 25vh;
-}
-.restaurant #restaurants .restaurant__card .restaurant__card__label {
-  position: relative;
-  top: 10%;
-  left: 70%;
-  padding: 1% 3%;
-  color: #008766;
-  background-color: #99e2d0;
-}
-.restaurant #restaurants .restaurant__card .restaurant__card__content {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  padding: 1% 4%;
-  line-height: 5px;
-}
-.restaurant #restaurants .restaurant__card .restaurant__card__content p {
-  color: gray;
-}
-.restaurant #restaurants .restaurant__card .restaurant__card__content .far {
-  color: gray;
-  font-size: 1.4em;
 }
 
 .image {

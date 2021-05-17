@@ -1,0 +1,53 @@
+/*--- RESTAURANT CARDS ---*/
+.img {
+  flex-grow: 1;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+.img1 {
+  background-image: url("../../../public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+}
+
+.img2 {
+  background-image: url("../../../public/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+}
+
+.img3 {
+  background-image: url("../../../public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+}
+
+.img4 {
+  background-image: url("../../../public/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+}
+
+.restaurant__card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: $box-shadow;
+  height: 25vh;
+  .restaurant__card__label {
+    position: relative;
+    top: 10%;
+    left: 70%;
+    padding: 1% 3%;
+    color: $label-content;
+    background-color: $tertiary-color;
+  }
+  .restaurant__card__content {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 1% 4%;
+    line-height: 5px;
+    p {
+      color: gray;
+    }
+    .far {
+      color: rgb(128 128 128);
+      font-size: 1.4em;
+    }
+  }
+}
