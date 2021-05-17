@@ -1,0 +1,20 @@
+/*MENU CARD ITEM*/
+.menu__card {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255 255 255);
+  border-radius: 20px;
+  box-shadow: $box-shadow;
+  margin-bottom: 5%;
+  padding: 0% 5%;
+  .menu__card__content {
+    line-height: 15px;
+    p {
+      color: gray;
+    }
+  }
+  .menu__card__price {
+    align-self: flex-end;
+    font-weight: 800;
+  }
+}

@@ -3,6 +3,7 @@
 /*--- GRADIENT ---*/
 /*--- BOX SHADOW ---*/
 /*--- FONTS ---*/
+/*--- PADDING AND MARGINS ---*/
 /*--- FONTS ---*/
 @font-face {
   font-family: "Roboto";
@@ -20,6 +21,11 @@ body {
 
 button {
   border: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /*--- Buttons ---*/
@@ -90,6 +96,27 @@ button {
 .restaurant__card .restaurant__card__content .far {
   color: gray;
   font-size: 1.4em;
+}
+
+/*MENU CARD ITEM*/
+.menu__card {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 7px 6px 9px 1px rgba(128, 128, 128, 0.17);
+  margin-bottom: 5%;
+  padding: 0% 5%;
+}
+.menu__card .menu__card__content {
+  line-height: 15px;
+}
+.menu__card .menu__card__content p {
+  color: gray;
+}
+.menu__card .menu__card__price {
+  align-self: flex-end;
+  font-weight: 800;
 }
 
 /*--- FONCTIONALITY BUTTONS ---*/
@@ -200,7 +227,6 @@ header form .input input {
   background-image: url("../../../public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
   background-position: center;
   background-size: cover;
-  z-index: 1;
   height: 25vh;
 }
 
@@ -208,8 +234,7 @@ header form .input input {
   border-radius: 35px 35px 0px 0px;
   background-color: #f6f6f6;
   padding: 5% 5% 10% 5%;
-  position: relative;
-  z-index: 2;
+  margin-top: -35px;
 }
 #menu .menu__header {
   display: flex;
@@ -233,25 +258,6 @@ header form .input input {
   font-size: 1rem;
   border-bottom: 3px solid #99e2d0;
   width: 40px;
-}
-#menu .menu__list .menu__card {
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 7px 6px 9px 1px rgba(128, 128, 128, 0.17);
-  margin-bottom: 5%;
-  padding: 0% 5%;
-}
-#menu .menu__list .menu__card .menu__card__content {
-  line-height: 15px;
-}
-#menu .menu__list .menu__card .menu__card__content p {
-  color: gray;
-}
-#menu .menu__list .menu__card .menu__card__price {
-  align-self: flex-end;
-  font-weight: 800;
 }
 #menu .menu__button {
   display: flex;
